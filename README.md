@@ -1,2 +1,2 @@
 # Spaghet-Ti.github.io
-My person website
+My personal website
