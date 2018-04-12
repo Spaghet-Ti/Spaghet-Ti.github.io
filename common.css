@@ -11,7 +11,7 @@ nav{
 #promo{
     text-align: center;
     padding: 40px;
-    background: url(assets/main_page_-_background.jpg) no-repeat
+    background: url(assets/main_page_-_background.jpg) no-repeat;
     background-size: cover;
 }
 
