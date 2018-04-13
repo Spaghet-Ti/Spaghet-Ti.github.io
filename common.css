@@ -11,7 +11,7 @@ nav{
 #promo{
     text-align: center;
     padding: 40px;
-    background: url(assets/main_page_-_background.jpg) no-repeat;
+    background: url(assets/background.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -24,7 +24,7 @@ nav{
 #promo .jumbotron{
     border-radius: 20px;
     padding: 40px;
-    background-color: rgba(255,255,255,0.75);
+    background-color: rgba(255,255,0,0.60);
     max-width: 800px;
     margin: 0 auto;
 }
