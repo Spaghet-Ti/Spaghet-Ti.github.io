@@ -1,36 +1,27 @@
-/* body */
-nav{
-    background-color: #563D7C;
+/* header & footer */
+.page-header{
+    background-color: #472FFE;
 }
 
-.block{
-    background-color: black;
-    color: black;
+#header-search{
+    width: 300px;
 }
 
-#promo{
+.page-footer{
+    background-color: #472FFE;
+}
+
+.footer-links-group{
+    list-style-type: none;
     text-align: center;
-    padding: 40px;
-    background: url(assets/background.jpg) no-repeat;
-    background-size: cover;
-}
-
-@media (max-width: 991px){
-    #promo{
-        padding: 20px;
-    }
-}
-
-#promo .jumbotron{
-    border-radius: 20px;
-    padding: 40px;
-    background-color: rgba(255,255,0,0.60);
-    max-width: 800px;
+    width: 200px;
     margin: 0 auto;
 }
 
-@media (max-width: 991px){
-    #promo .jumbotron{
-        padding: 20px;
-    }
+ul.footer-links-group{
+    padding: 0;
+}
+
+a.footer-links-group{
+    text-align: center;
 }
