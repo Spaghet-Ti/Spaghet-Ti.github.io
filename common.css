@@ -11,13 +11,13 @@
     background-color: #139494;
 }
 
-.footer-links-group{
-    list-style-type: none;
-    text-align: center;
+.footer-links{
     width: 200px;
     margin: 0 auto;
 }
 
-ul.footer-links-group{
+.footer-links-group{
+    list-style-type: none;
+    text-align: center;
     padding: 0;
 }
