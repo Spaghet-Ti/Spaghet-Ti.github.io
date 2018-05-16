@@ -1,9 +1,9 @@
 /* header & footer */
-.topNav{
+.page-header{
     background-color: #139494;
 }
 
-#header-search{
+.site-search{
     width: 300px;
 }
 
@@ -20,8 +20,4 @@
 
 ul.footer-links-group{
     padding: 0;
-}
-
-a.footer-links-group{
-    text-align: center;
 }
