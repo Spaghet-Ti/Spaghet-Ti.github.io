@@ -1,6 +1,6 @@
 /* header & footer */
-.page-header{
-    background-color: #472FFE;
+.topNav{
+    background-color: #139494;
 }
 
 #header-search{
@@ -8,7 +8,7 @@
 }
 
 .page-footer{
-    background-color: #472FFE;
+    background-color: #139494;
 }
 
 .footer-links-group{

@@ -1,8 +1,5 @@
 <script type="text/javascript">
   
-window.location = "https://spaghet-ti.github.io/%E9%A6%96%E9%A1%B5.html";
+window.location = "https://spaghet-ti.github.io/首页";
   
 </script>
-
-# Spaghet-Ti.github.io
-My personal website
