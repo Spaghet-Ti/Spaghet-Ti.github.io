@@ -1,3 +1,12 @@
+@font-face{
+    font-family: "Source Han Serif CN-Medium";
+    src: url("https://github.com/adobe-fonts/source-han-serif/raw/release/SubsetOTF/CN/SourceHanSerifCN-Medium.otf");
+}
+
+body{
+    font-family: Georgia, "Times New Roman", "Source Han Serif CN-Medium", NSimsun;
+}
+
 /* header & footer */
 .page-header{
     background-color: #139494;
