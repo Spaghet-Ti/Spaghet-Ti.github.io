@@ -23,9 +23,6 @@ body{
 .scheme-link-primary:hover{
     color: #6DDCDC;
 }
-.scheme-link-primary:link{
-    color: #003232;
-}
 
 /*******/
 .scheme-bg-secondary{
@@ -41,9 +38,6 @@ body{
 }
 .scheme-link-secondary:hover{
     color: #FFE97F;
-}
-.scheme-link-secondary:link{
-    color: #534500;
 }
 
 /*******/
@@ -61,10 +55,6 @@ body{
 .scheme-link-tertiary:hover{
     color: #C375E2;
 }
-.scheme-link-tertiary:link{
-    color: #280237;
-}
-
 
 /*******/
 .scheme-bg-industry{
@@ -80,9 +70,6 @@ body{
 }
 .scheme-link-industry:hover{
     color: #A7F479;
-}
-.scheme-link-industry:link{
-    color: #1B4900;
 }
 
 /* header & footer */
