@@ -24,6 +24,10 @@ body{
     color: #6DDCDC;
 }
 
+.scheme-disabled-primary{
+    color: rgba(7, 106, 106, 0.75)
+}
+
 /*******/
 .scheme-bg-secondary{
     background-color: #F6D120;
@@ -38,6 +42,10 @@ body{
 }
 .scheme-link-secondary:hover{
     color: #FFE97F;
+}
+
+.scheme-disabled-secondary{
+    color: rgba(176, 148, 12, 0.5)
 }
 
 /*******/
@@ -56,6 +64,10 @@ body{
     color: #C375E2;
 }
 
+.scheme-disabled-tertiary{
+    color: rgba(87, 12, 117, 0.75);
+}
+
 /*******/
 .scheme-bg-industry{
     background-color: #62D71C;
@@ -70,6 +82,10 @@ body{
 }
 .scheme-link-industry:hover{
     color: #A7F479;
+}
+
+.scheme-disabled-industry{
+    color: rgba(64, 154, 10, 0.75);
 }
 
 /* header & footer */
