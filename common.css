@@ -7,12 +7,85 @@ body{
     font-family: Georgia, "Times New Roman", "Source Han Serif CN-Medium", NSimsun;
 }
 
-/* header & footer */
-.page-header, .page-footer{
+
+/* global colors */
+.scheme-bg-primary{
     background-color: #139494;
+}
+
+.scheme-text-primary{
+    color: #139494;
+}
+
+.scheme-link-primary{
+    color: #139494;
+}
+.scheme-link-primary:hover{
+    color: #6DDCDC;
+}
+.scheme-link-primary:link{
+    color: #003232;
+}
+
+/*******/
+.scheme-bg-secondary{
+    background-color: #F6D120;
+}
+
+.scheme-text-secondary{
     color: #F6D120;
 }
 
+.scheme-link-secondary{
+    color: #F6D120;
+}
+.scheme-link-secondary:hover{
+    color: #FFE97F;
+}
+.scheme-link-secondary:link{
+    color: #534500;
+}
+
+/*******/
+.scheme-bg-tertiary{
+    background-color: #7D1BA4;
+}
+
+.scheme-text-tertiary{
+    color: #7D1BA4;
+}
+
+.scheme-link-tertiary{
+    color: #7D1BA4;
+}
+.scheme-link-tertiary:hover{
+    color: #C375E2;
+}
+.scheme-link-tertiary:link{
+    color: #280237;
+}
+
+
+/*******/
+.scheme-bg-industry{
+    background-color: #62D71C;
+}
+
+.scheme-text-industry{
+    color: #62D71C;
+}
+
+.scheme-link-industry{
+    color: #62D71C;
+}
+.scheme-link-industry:hover{
+    color: #A7F479;
+}
+.scheme-link-industry:link{
+    color: #1B4900;
+}
+
+/* header & footer */
 .site-search{
     width: 300px;
 }
@@ -26,8 +99,4 @@ body{
     text-align: center;
     margin: 0;
     padding: 0;
-}
-
-.footer-links-group-item{
-    color: #F6D120;
 }
