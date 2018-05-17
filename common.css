@@ -8,9 +8,9 @@ body{
 }
 
 /* header & footer */
-.page-footer, .page-header{
+.page-header, .page-footer{
     background-color: #139494;
-    color: #F6D120;
+    color: #F6D120 !important;
 }
 
 .site-search{
@@ -18,7 +18,7 @@ body{
 }
 
 .footer-links{
-    width: 200px;
+    padding: 1em;
     margin: 0 auto;
 }
 
