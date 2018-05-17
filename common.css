@@ -8,7 +8,7 @@ body{
 }
 
 /* header & footer */
-.page-footer .page-header{
+.page-footer, .page-header{
     background-color: #139494;
     color: #F6D120;
 }
