@@ -8,16 +8,13 @@ body{
 }
 
 /* header & footer */
-.page-header{
+.page-footer .page-header{
     background-color: #139494;
+    color: #F6D120;
 }
 
 .site-search{
     width: 300px;
-}
-
-.page-footer{
-    background-color: #139494;
 }
 
 .footer-links{
