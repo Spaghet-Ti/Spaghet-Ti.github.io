@@ -6,6 +6,6 @@ $(document).ready(function() {
         $(".footer-social-modal-wechat").modal("show");
     })
     $(".footer-social-email").click(function() {
-        $(".footer-social-modal-emial").modal("show");
+        $(".footer-social-modal-email").modal("show");
     })
 })
