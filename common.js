@@ -1,5 +1,5 @@
 $(document).ready(function() {
     $("#footer-social-google").click(function() {
-        console.log("test");
+        $(".footer-social-modal-google")modal("show");
     })
 })
