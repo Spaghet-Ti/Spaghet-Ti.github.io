@@ -10,7 +10,7 @@ body{
 /* header & footer */
 .page-header, .page-footer{
     background-color: #139494;
-    color: #F6D120 !important;
+    color: #F6D120;
 }
 
 .site-search{
@@ -18,7 +18,6 @@ body{
 }
 
 .footer-links{
-    padding: 1em;
     margin: 0 auto;
 }
 
@@ -27,4 +26,8 @@ body{
     text-align: center;
     margin: 0;
     padding: 0;
+}
+
+a.footer-links-group{
+    color: #F6D120;
 }
