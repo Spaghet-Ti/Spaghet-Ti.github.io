@@ -89,15 +89,15 @@ body{
 }
 
 /* header & footer */
-.site-search{
+#site-search{
     width: 300px;
 }
 
-.footer-links{
+#footer-links{
     margin: 0 auto;
 }
 
-.footer-links-group{
+#footer-links-group{
     list-style-type: none;
     text-align: center;
     margin: 0;

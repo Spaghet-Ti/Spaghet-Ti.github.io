@@ -27,7 +27,7 @@
         <title>首页 - 徐亦樵</title>
     </head>
     <body>
-        <header class="page-header scheme-bg-primary scheme-text-secondary navbar navbar-expand-lg ">
+        <header id="page-header" class="scheme-bg-primary scheme-text-secondary navbar navbar-expand-lg ">
             <a class="navbar-brand" href="/">
                 <img src="/assets/logo.png" height="30" role="logo" alt="my logo">
             </a>
@@ -40,7 +40,7 @@
                     <li class="nav-item"><a class="nav-link scheme-disabled-secondary" href="/关于">关于</a></li>
                 </ul>
             </div>
-            <form class="site-search" method="get" action="https://www.baidu.com/s">
+            <form id="site-search" method="get" action="https://www.baidu.com/s">
                 <div class="input-group">
                     <input type="text" class="form-control" name="wd" placeholder="站内搜索" aria-label="站内搜索" aria-describedby="basic-addon2">
                     <div class="input-group-append">
@@ -71,10 +71,10 @@
             </div>
         </main>
 
-        <footer class="page-footer scheme-bg-primary scheme-text-secondary">
+        <footer id="page-footer" class="scheme-bg-primary scheme-text-secondary">
             <div class="container py-3">
-                <nav class="footer-links">
-                    <ul class="footer-links-group">
+                <nav id="footer-links">
+                    <ul id="footer-links-group">
                         <li><a class="scheme-link-secondary" href="/首页">首页</a></li>
                         <li><a class="scheme-link-secondary" href="/关于">关于</a></li>
                         <li><a class="scheme-link-secondary" href="/关于/联系">联系我们</a></li>
@@ -85,14 +85,14 @@
 
                 <hr style="width: 80%; border-color: #C0C0C0; border-width: 1px;">
 
-                <div class="footer-social d-flex justify-content-center">
-                    <i class="footer-social-google fab fa-google fa-lg mx-2"></i>
-                    <i class="footer-social-wechat fab fa-weixin fa-lg mx-2"></i>
-                    <i class="footer-social-email fas fa-envelope fa-lg mx-2"></i>
+                <div id="footer-social" class="d-flex justify-content-center">
+                    <i id="footer-social-google" class="fab fa-google fa-lg mx-2"></i>
+                    <i id="footer-social-wechat" class="fab fa-weixin fa-lg mx-2"></i>
+                    <i id="footer-social-email" class="fas fa-envelope fa-lg mx-2"></i>
                 </div>
 
-                <div class="footer-social-modals scheme-text-tertiary">
-                    <div class="footer-social-modal-google modal fade" tabindex="-1" role="footer-social-modal-google" aria-labelledby="footer-social-modal-google" aria-hidden="true">
+                <div id="footer-social-modals" class="scheme-text-tertiary">
+                    <div id="footer-social-modal-google" class="modal fade" tabindex="-1" role="footer-social-modal-google" aria-labelledby="footer-social-modal-google" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                           <div class="modal-content">
                             <div class="modal-header">
@@ -102,7 +102,7 @@
                               </button>
                             </div>
                             <div class="modal-body" style="color: #EA4335">
-                              ...
+                              <b>邮箱（由教育局管理）：</b>axu1@students.chccs.k12.nc.us
                             </div>
                             <div class="modal-footer">
                               <button type="button" class="btn scheme-bg-tertiary scheme-text-industry" data-dismiss="modal">关闭</button>
@@ -110,7 +110,7 @@
                           </div>
                         </div>
                     </div>
-                    <div class="footer-social-modal-wechat modal fade" tabindex="-1" role="footer-social-modal-wechat" aria-labelledby="footer-social-modal-wechat" aria-hidden="true">
+                    <div id="footer-social-modal-wechat" class="modal fade" tabindex="-1" role="footer-social-modal-wechat" aria-labelledby="footer-social-modal-wechat" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                           <div class="modal-content">
                             <div class="modal-header">
@@ -120,7 +120,7 @@
                               </button>
                             </div>
                             <div class="modal-body" style="color: #1AAD19">
-                              ...
+                              <b>微信账号：</b>XYQ3516
                             </div>
                             <div class="modal-footer">
                               <button type="button" class="btn scheme-bg-tertiary scheme-text-industry" data-dismiss="modal">关闭</button>
@@ -128,7 +128,7 @@
                           </div>
                         </div>
                     </div>
-                    <div class="footer-social-modal-email modal fade" tabindex="-1" role="footer-social-modal-email" aria-labelledby="footer-social-modal-email" aria-hidden="true">
+                    <div id="footer-social-modal-email" class="modal fade" tabindex="-1" role="footer-social-modal-email" aria-labelledby="footer-social-modal-email" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                           <div class="modal-content">
                             <div class="modal-header">
@@ -138,7 +138,7 @@
                               </button>
                             </div>
                             <div class="modal-body scheme-text-primary">
-                              ...
+                              <b>邮箱：</b>demo.sample@example.com
                             </div>
                             <div class="modal-footer">
                               <button type="button" class="btn scheme-bg-tertiary scheme-text-industry" data-dismiss="modal">关闭</button>
