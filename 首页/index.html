@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="zh">
     <head>
@@ -33,17 +34,17 @@
                     <img id="header-navbar-logo" src="/assets/logo.png" height="35" role="logo" alt="my logo">
                     徐亦樵的个人网站
                 </a>
-                <button id="header-navbar-collapse" type="button">
-                    <i class="fas fa-bars"></i>
+                <button id="header-navbar-collapse" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-navbar-collapse-menu" aria-controls="navbar toggler" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
                 </button>
                 
-                <div id="header-navbar-collapse-menu" class="collapse navbar-collapse d-flex flex-row-reverse">
-                    <ul class="navbar-nav mr-auto" role="navigation bar">
-                        <li class="nav-item py-1 active"><a href="/首页" class="nav-link text-lv2">首页</a></li>
-                        <li class="nav-item py-1"><a href="/动态" class="nav-link text-lv2">动态</a></li>
-                        <li class="nav-item py-1"><a href="/相册" class="nav-link text-lv2 disabled">相册</a></li>
-                        <li class="nav-item py-1"><a href="/博客" class="nav-link text-lv2">博客</a></li>
-                        <li class="nav-item py-1"><a href="/关于" class="nav-link text-lv2 disabled">关于</a></li>
+                <div id="header-navbar-collapse-menu" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto" role="navigation bar">
+                        <li class="nav-item active"><a href="/首页" class="nav-link text-lv2">首页</a></li>
+                        <li class="nav-item"><a href="/动态" class="nav-link text-lv2">动态</a></li>
+                        <li class="nav-item"><a href="/相册" class="nav-link text-lv2 disabled">相册</a></li>
+                        <li class="nav-item"><a href="/博客" class="nav-link text-lv2">博客</a></li>
+                        <li class="nav-item"><a href="/关于" class="nav-link text-lv2 disabled">关于</a></li>
                     </ul>
                     <form id="site-search" method="get" action="https://www.baidu.com/s">
                         <div class="input-group">
