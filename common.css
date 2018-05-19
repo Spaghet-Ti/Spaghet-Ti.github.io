@@ -8,10 +8,6 @@ body{
 }
 
 /* header & footer */
-#header-navbar-logo{
-    height: 35px;
-}
-
 #site-search{
     width: 300px;
 }
