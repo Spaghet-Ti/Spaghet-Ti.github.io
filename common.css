@@ -8,6 +8,12 @@ body{
 }
 
 /* header & footer */
+@media (max-width: 767px) {
+    #header-navbar-collapse-menu{
+        width: 0;
+    }
+}
+
 #site-search{
     width: 300px;
 }
