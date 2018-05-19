@@ -15,7 +15,7 @@ body{
 }
 
 #site-search{
-    width: 300px;
+    max-width: 300px;
 }
 
 #footer-links{
