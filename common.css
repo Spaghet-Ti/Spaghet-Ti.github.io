@@ -37,7 +37,7 @@ body{
 }
 @media (min-width: 688px){
     .navbar-expand-sm .navbar-toggler {
-        display: none;
+        display: none !important;
     }
 }
 
