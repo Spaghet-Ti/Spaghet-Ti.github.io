@@ -35,9 +35,9 @@ body{
         padding-bottom: 10px;
     }
 }
-@media (min-width: 688px){
+@media (max-width: 687px){
     .navbar-expand-sm .navbar-toggler {
-        display: none !important;
+        display: inline !important;
     }
 }
 
