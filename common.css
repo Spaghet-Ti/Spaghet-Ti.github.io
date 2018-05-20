@@ -12,6 +12,12 @@ body{
     max-width: 300px;
 }
 
+@media (max-width: 767px){
+    #site-search{
+        margin-left: auto;
+    }
+}
+
 #footer-links{
     margin: 0 auto;
 }
