@@ -35,6 +35,11 @@ body{
         padding-bottom: 10px;
     }
 }
+@media (min-width: 688px){
+    .navbar-expand-sm .navbar-toggler {
+        display: none;
+    }
+}
 
 #site-search{
     max-width: 300px;
