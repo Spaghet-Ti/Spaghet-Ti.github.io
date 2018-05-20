@@ -36,7 +36,7 @@ body{
     }
 }
 @media (max-width: 687px){
-    .navbar-expand-sm .navbar-toggler {
+    #header-navbar-collapse{
         display: inline !important;
     }
 }
