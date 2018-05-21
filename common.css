@@ -68,6 +68,11 @@ body{
       display: none;
     }
 }
+@media (max-width: 686px){
+    .navbar-expand-sm .navbar-toggler {
+      display: inline !important;
+    }
+}
 
 #site-search{
     max-width: 300px;
