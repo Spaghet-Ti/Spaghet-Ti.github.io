@@ -8,77 +8,11 @@ body{
 }
 
 /* header & footer */
-@media (max-width: 686px) {
-    /* custom navbar collapse breakpoint */
-    .navbar-header {
-        float: none;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .navbar-collapse.collapse {
-        display: none!important;
-    }
-    .navbar-nav {
-        float: none!important;
-        margin: 7.5px -15px;
-    }
-    .navbar-nav>li {
-        float: none;
-    }
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-}
-@media (min-width: 687px) {
-    .navbar-expand-sm {
-      -ms-flex-flow: row nowrap;
-      flex-flow: row nowrap;
-      -ms-flex-pack: start;
-      justify-content: flex-start;
-    }
-    .navbar-expand-sm .navbar-nav {
-      -ms-flex-direction: row;
-      flex-direction: row;
-    }
-    .navbar-expand-sm .navbar-nav .dropdown-menu {
-      position: absolute;
-    }
-    .navbar-expand-sm .navbar-nav .nav-link {
-      padding-right: 0.5rem;
-      padding-left: 0.5rem;
-    }
-    .navbar-expand-sm > .container,
-    .navbar-expand-sm > .container-fluid {
-      -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-    }
-    .navbar-expand-sm .navbar-collapse {
-      display: -ms-flexbox !important;
-      display: flex !important;
-      -ms-flex-preferred-size: auto;
-      flex-basis: auto;
-    }
-    .navbar-expand-sm .navbar-toggler {
-      display: none;
-    }
-}
-@media (max-width: 686px){
-    .navbar-expand-sm .navbar-toggler {
-      display: inline !important;
-    }
-}
-
 #site-search{
     max-width: 300px;
 }
 
-@media (max-width: 687px){
+@media (max-width: 575px){
     #site-search{
         margin-left: auto;
     }
