@@ -8,7 +8,7 @@ body{
 }
 
 /* header & footer */
-@media (max-width: 687px) {
+@media (max-width: 686px) {
     /* custom navbar collapse breakpoint */
     .navbar-header {
         float: none;
@@ -35,7 +35,7 @@ body{
         padding-bottom: 10px;
     }
 }
-@media (min-width: 688px) {
+@media (min-width: 687px) {
     .navbar-expand-sm {
       -ms-flex-flow: row nowrap;
       flex-flow: row nowrap;
