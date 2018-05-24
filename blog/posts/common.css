@@ -3,7 +3,7 @@
     src: url("https://raw.githubusercontent.com/adobe-fonts/source-han-serif/release/SubsetOTF/CN/SourceHanSerifCN-Medium.otf");
 }
 
-*{
+main{
     font-family: Georgia, "Times New Roman", "Source Han Serif CN-Medium", NSimsun;
 }
 
