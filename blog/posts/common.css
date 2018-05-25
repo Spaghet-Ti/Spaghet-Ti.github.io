@@ -101,8 +101,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Pagination */
-.blog-pagination > .btn, .blog-labels > .btn {
+/* Pagination and labels*/
+.blog-pagination .btn, .blog-labels .btn {
   border-radius: 2rem;
 }
 
