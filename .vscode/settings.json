@@ -1,3 +1,8 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "css.remoteStyleSheets": [
+        "https://use.fontawesome.com/releases/v5.0.13/css/all.css",
+        "https://spaghet-ti.github.io/libraries/bootstrap/dist/css/bootstrap.min.css",
+        
+    ]
 }
