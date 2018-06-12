@@ -14,9 +14,10 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="/libraries/bootstrap/dist/css/bootstrap.min.css">
+        <script src="/libraries/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
 
         <link rel="stylesheet" type="text/css" href="/common.css">
-        <script src="/common.js"></script>
         <meta name="description" content="首页 | 徐亦樵的个人网站">
         <meta name="site" content="Spaghet-Ti.github.io">
         <meta name="copyright" content="Copyright © 2018 Andrew Xu, all rights reserved.">
@@ -62,7 +63,7 @@
             </nav>
         </header>
 
-        <main class="my-3">
+        <main class="py-3">
             <div class="container" id="promo">
                 <div class="jumbotron">
                     <h1 class="display-4">欢迎来到我【徐亦樵】的个人网页！</h1>
@@ -163,7 +164,18 @@
             </div>
         </footer>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-        <script src="/libraries/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script>
+        $(document).ready(function() {
+            $("#footer-social-google").click(function() {
+                $("#footer-social-modal-google").modal("show");
+            })
+            $("#footer-social-wechat").click(function() {
+                $("#footer-social-modal-wechat").modal("show");
+            })
+            $("#footer-social-email").click(function() {
+                $("#footer-social-modal-email").modal("show");
+            })
+        })
+        </script>
     </body>
 </html>

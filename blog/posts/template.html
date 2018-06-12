@@ -12,8 +12,10 @@
         <!-- Font Awesome-->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-        <!-- Bootstrap CSS -->
+        <!-- Bootstrap -->
         <link rel="stylesheet" href="/libraries/bootstrap/dist/css/bootstrap.min.css">
+        <script src="/libraries/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
 
         <!-- Prism.js -->
         <script src="/libraries/prism.js/prism.js"></script>
@@ -27,7 +29,6 @@
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
 
         <link rel="stylesheet" type="text/css" href="/blog/posts/common.css">
-        <script src="/blog/posts/common.js"></script>
         <meta name="description" content=" | 徐亦樵的博客">
         <meta name="site" content="Spaghet-Ti.github.io">
         <meta name="copyright" content="Copyright © 2018 Andrew Xu, all rights reserved.">
@@ -84,14 +85,11 @@
         <main role="main" class="container">
             <div class="row">
                 <div class="col-md-8 blog-main">
-                    <h3 class="pb-3 mb-4 font-italic border-bottom">
-                        From the Firehose
-                    </h3>
             
                     <div class="blog-post text-body mb-4">
                         <h2 class="blog-post-title">Sample blog post</h2>
                         <p class="blog-post-meta">January 1, 2014 by <a href="#">Andrew</a></p>
-                        <div class="blog-post-share social-share" data-wechat-qrcode-title="打开微信扫一扫来分享" data-disabled="['douban', 'linkedin', 'diandian']"></div>
+                        <div class="blog-post-share social-share" data-wechat-qrcode-title="打开微信扫一扫来分享"></div>
 
                         <p class="lead">This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
                         <hr>
@@ -364,7 +362,18 @@ $ git merge release
             </div>
         </footer>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-        <script src="/libraries/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script>
+        $(document).ready(function() {
+            $("#footer-social-google").click(function() {
+                $("#footer-social-modal-google").modal("show");
+            })
+            $("#footer-social-wechat").click(function() {
+                $("#footer-social-modal-wechat").modal("show");
+            })
+            $("#footer-social-email").click(function() {
+                $("#footer-social-modal-email").modal("show");
+            })
+        })
+        </script>
     </body>
 </html>

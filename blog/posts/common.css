@@ -8,35 +8,38 @@ main, #page-footer{
 }
 
 .blockquote:not(.blockquote-footer){
-  font-family: "Playfair Display", Georgia, 'Times New Roman', serif;
-  font-style: italic;
+    font-family: "Playfair Display", Georgia, 'Times New Roman', serif;
+    font-style: italic;
 }
 
 .lead, .blockquote-footer{
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+pre[class*="language-"]{
+    border-radius: 5px;
 }
 
 /* stylelint-disable selector-list-comma-newline-after */
-
 .blog-header {
     line-height: 1;
   }
 
 .blog-header-logo {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif !important;
-  font-size: 2.25rem;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif !important;
+    font-size: 2.25rem;
 }
 
 .blog-header-logo:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif !important;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif !important;
 }
 
 .display-4 {
-  font-size: 2.5rem;
+    font-size: 2.5rem;
 }
 @media (min-width: 768px) {
   .display-4 {
@@ -45,39 +48,39 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-scroller {
-  position: relative;
-  z-index: 2;
-  height: 2.75rem;
-  overflow-y: hidden;
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
 }
 
 .nav-scroller .nav {
-  display: -ms-flexbox;
-  display: flex;
+    display: -ms-flexbox;
+    display: flex;
   -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  padding-bottom: 1rem;
-  margin-top: -1px;
-  overflow-x: auto;
-  text-align: center;
-  white-space: nowrap;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
   -webkit-overflow-scrolling: touch;
 }
 
 .nav-scroller .nav-link {
-  padding-top: .75rem;
-  padding-bottom: .75rem;
-  font-size: .875rem;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: .875rem;
 }
 
 .card-img-right {
-  height: 100%;
-  border-radius: 0 3px 3px 0;
+    height: 100%;
+    border-radius: 0 3px 3px 0;
 }
 
 .flex-auto {
   -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
+    flex: 0 0 auto;
 }
 
 .h-250 { height: 250px; }
@@ -94,13 +97,13 @@ h1, h2, h3, h4, h5, h6 {
  * Blog name and description
  */
 .blog-title {
-  margin-bottom: 0;
-  font-size: 2rem;
-  font-weight: 400;
+    margin-bottom: 0;
+    font-size: 2rem;
+    font-weight: 400;
 }
 .blog-description {
-  font-size: 1.1rem;
-  color: #999;
+    font-size: 1.1rem;
+    color: #999;
 }
 
 @media (min-width: 40em) {
@@ -111,34 +114,34 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Pagination and labels*/
 .blog-pagination .btn, .blog-labels .btn {
-  border-radius: 2rem;
+    border-radius: 2rem;
 }
 
 /*
  * Blog posts
  */
 .blog-post-title {
-  margin-bottom: .25rem;
-  font-size: 2.5rem;
+    margin-bottom: .25rem;
+    font-size: 2.5rem;
 }
 .blog-post-meta {
-  margin-bottom: 0;
-  color: #999;
+    margin-bottom: 0;
+    color: #999;
 }
 .blog-post-share {
-  margin-bottom: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 
 /* Footer */
 .blog-footer {
-  padding: 2.5rem 0;
-  color: #999;
-  text-align: center;
-  background-color: #f9f9f9;
-  border-top: .05rem solid #e5e5e5;
+    padding: 2.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
 }
 .blog-footer p:last-child {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 /***********************************/

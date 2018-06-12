@@ -20,6 +20,12 @@ code, kbd, pre, samp{
     font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono","Courier New", monospace
 }
 
+main{
+    background-color: #139494;
+    background-image: linear-gradient(156deg, #139494 0%, #f6d120 22%, #7d1ba4 70%, #62d71c 100%);
+
+}
+
 /* header & footer */
 #site-search{
     max-width: 300px;
