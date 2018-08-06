@@ -388,7 +388,33 @@ $ git merge release
             var date = new Date($("span.date").attr("data-dt"));
             var timezone = -date.getTimezoneOffset() / 60;
             date.setHours(date.getHours() + timezone);
-            $("span.date").text(moment([date.getFullYear(),date.getMonth(),date.getDate()]).format("LL"));
+
+            data = [date.getFullYear(),date.getMonth(),date.getDate(),date.getHours(),date.getMinutes()]
+            switch (moment.locale()) {
+                case "en":
+                case "en-ca":
+                    r = moment(data).format("dddd, MMMM D YYYY, H:mm")
+                    break;
+
+                case "en-au":
+                case "en-ie":
+                case "en-il":
+                case "en-nz":
+                case "en-gb":
+                    r = moment(data).format("dddd, D MMMM YYYY, H:mm")
+                    break;
+
+                case "zh-cn":
+                case "zh-hk":
+                case "zh-tw":
+                    r = moment(data).format("llll")
+                    break;
+
+                default:
+                    r = moment(data).format("LLL")
+                    break;
+            }
+            $("span.date").text(r);
         })
         </script>
 
